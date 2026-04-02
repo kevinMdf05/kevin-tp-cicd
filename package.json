@@ -1,0 +1,18 @@
+{
+  "name": "kevin-tp",
+  "version": "1.0.0",
+  "description": "Application web avec pipeline CI/CD GitHub Actions et deploiement Azure",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest tests/unit --forceExit",
+    "test:e2e": "jest tests/e2e --forceExit"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.4"
+  }
+}
